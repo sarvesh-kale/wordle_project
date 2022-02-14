@@ -39,44 +39,39 @@ window = sg.Window('Wordle Game Hack', layout)
 pattern=""
 possible_solutions=[]
 count = 0
-
+#var1,var2,var3,var4,var5='','','','',''
 #print the updated output in the event loop 
 while True:
     event, values = window.read()
     #print(event,values)
     # pattern=values['-INPUT1-'] + values['-INPUT2-'] + values['-INPUT3-'] + values['-INPUT4-'] + values['-INPUT5-']
     pattern=""
-    
-    if values['-INPUT1-'] == None :
-        pattern = pattern+'[a-z]'
-    else : 
+    if  values['-INPUT1-'] == '' :   
+        pattern = pattern + '[a-z]'
+    else :
         pattern = pattern + values['-INPUT1-']
- 
-    if values['-INPUT2-'] == None :
-        pattern = pattern+ '[a-z]'
+    
+    if  values['-INPUT2-'] == '' :   
+        pattern = pattern + '[a-z]'
     else :
         pattern = pattern + values['-INPUT2-']
- 
-    if values['-INPUT3-'] == None :
-        pattern = pattern+ '[a-z]'
+   
+    if  values['-INPUT3-'] == '' :   
+        pattern = pattern + '[a-z]'
     else :
         pattern = pattern + values['-INPUT3-']
-
- 
-    if values['-INPUT4-'] == None :
-        pattern = pattern+ '[a-z]'
+    
+    if  values['-INPUT4-'] == '' :   
+        pattern = pattern + '[a-z]'
     else :
         pattern = pattern + values['-INPUT4-']
-
- 
-    if values['-INPUT5-'] == None :
-        pattern = pattern+ '[a-z]'
+    
+    if  values['-INPUT5-'] == '' :   
+        pattern = pattern + '[a-z]'
     else :
         pattern = pattern + values['-INPUT5-']
-
-
+    
     print(pattern)
-
     if event == sg.WINDOW_CLOSED or event == 'Quit':
         break
     possible_solutions = [ ]
