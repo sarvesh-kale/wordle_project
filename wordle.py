@@ -1,4 +1,3 @@
-#!/home/sarvesh/Desktop/python/gui/bin/python3
 import PySimpleGUI as sg
 from itertools import permutations
 import re 
