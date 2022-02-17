@@ -1,6 +1,6 @@
 ## WORDLE 
 
-This is a simple wordle SOlving algorithm<br />
+This is a simple wordle Solving algorithm<br />
 There is a nice gui wrapped arounf it, Only build for linux systems <br />
 There is a dist folder inside which the wordle file having an icon is there, double clicking it will launch the program <br />
 for command line folks, there is a wordle.py which you can execute from the command line <br />
