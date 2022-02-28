@@ -18,8 +18,9 @@ $ source ./wordle/bin/activte
 $ pip install PySimpleGUI 
 $ pip install pyinstaller 
 ```
-copy paste the wordle icon file inside the wordle environment .
-after you execute the source command you are inside the wordle environment
+copy paste the wordle icon file inside the wordle environment .<br />
+after you execute the source command you are inside the wordle environment<br />
+download wordle.py and paste it inside this environemnt.
 
 ## How it Works ?
 
